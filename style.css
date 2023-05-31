@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.hr-tsyle{
+    border: 5px dotted black;
+    border-bottom: none;
+    width: 50px;
+}
+
+header{
+    background-image: url(/Image/Banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: rgba(83, 81, 81, 0.436);
+}
+
+.nav-link {
+    margin: 10px;
+    color: white;
+    transition: .4s;
+
+}
+.nav-link:hover {
+    margin: 10px;
+    color: white;
+    transition: .4s;
+    background-color: blueviolet;
+    transform: scale(1.5);
+    border-radius: 5px;
+
+}
+
+#features{
+    padding: 100px;
+    background-color: antiquewhite;
+}
+.features-image{
+    width: 30px;
+}
+
+.features{
+    border: 3px solid royalblue;
+    border-radius: 10px;
+}
+
+.features:hover{
+    color: white;
+    background-color: rgb(216, 14, 112);
+    transform: translateY(30px);
+    box-shadow: red 10px 10px 10px 5px !important;
+    transition: 1s;
+}
+
+#About-me{
+    padding: 100px;
+    background-color: antiquewhite;
+}
+
+#About-me h1{
+    font-size: 34px;
+}
+
+.icon-me{
+    font-size: 40px;
+    color: blueviolet;
+    text-align: center;
+    padding-left: 30px;
+}
+
+#About-me p{
+    margin-bottom: 0;
+}
+
+#Tutorials{
+    background-color: rgba(163, 231, 208, 0.874);
+}
+
+.card-img-top {
+    width: 80px;
+
+}
+
+.form-cont {
+    border: 1px solid green;
+    border-radius: 5px;
+
+}
+
+#footer{
+    background-color: rgba(94, 188, 5, 0.852);
+}
+
+.icon{
+    padding: 5px;
+    color: rgb(254, 254, 254);
+    vertical-align: middle;
+}
+
+.ficon {
+    font-size: 20px;
+    vertical-align: middle;
+    /* background-color: blueviolet; */
+}
+
+.bottom-link li{
+    list-style: none;
+    padding: 2px 0px;
+}
